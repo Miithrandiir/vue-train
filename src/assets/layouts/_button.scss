@@ -1,0 +1,35 @@
+@use "sass:map";
+@import "../abstracts/colors";
+
+button {
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    transition: background-color 500ms ease-in-out;
+}
+button.full {
+    width: 100%;
+}
+button.success {
+    background: var(--success);
+    color: var(--success-text);
+    &:hover {
+        background-color: darken(map.get($colors, 'success'), 10);
+    }
+}
+button.danger {
+    background: var(--danger);
+    color: var(--danger-text);
+    &:hover {
+        background-color: darken(map.get($colors, 'danger'), 10);
+    }
+}
+button.warning {
+    background: var(--warning);
+    color: var(--warning-text);
+    &:hover {
+        background-color: darken(map.get($colors, 'warning'), 10);
+    }
+}

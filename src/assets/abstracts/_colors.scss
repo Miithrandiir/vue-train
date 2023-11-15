@@ -1,0 +1,26 @@
+$colors : (
+    primary: #fff,
+    secondary: #f7f7f7,
+
+    success: rgba(#2ECC71, 0.2),
+    success-text: black,
+
+    warning: rgba(#F1C40F, 0.2),
+    warning-text: black,
+
+    danger: rgba(#E74C3C, 0.2),
+    danger-text: black,
+
+    info: rgba(#12ABDB, 0.2),
+    info-text: black,
+    
+    blue: rgba(#12ABDB, 0.2),
+
+    text: #3A3838,
+);
+
+:root {
+    @each $color, $value in $colors {
+        --#{""+$color}: #{$value};
+    }
+}

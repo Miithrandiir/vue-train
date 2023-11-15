@@ -1,0 +1,27 @@
+header#header-site {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 10px;
+    background-color: var(--secondary);
+    color: var(--text);
+    border-bottom: 1px solid rgba(#000, 0.2);
+    &>ul {
+        display: flex;
+        list-style: none;
+        &>li {
+            margin: 0 5px;
+        }
+    }
+
+    a {
+        color: var(--text);
+    }
+
+    ul>li a.router-link-active {
+        border-bottom: 1px solid #000;
+    }
+}
