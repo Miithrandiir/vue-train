@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 13",
+    "price": 1000,
+    "description": "This is the best phone",
+    "stars": 4.5,
+    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-unselect-gallery-2-202207?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1654894177855",
+    "category": "phone",
+    "brand": "Apple",
+    "isHighlighted": true
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21",
+    "price": 899,
+    "description": "A high-end Android smartphone",
+    "stars": 4.6,
+    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-unselect-gallery-2-202207?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1654894177855",
+    "category": "phone",
+    "brand": "Samsung",
+    "isHighlighted": true
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 6",
+    "price": 799,
+    "description": "A flagship Google smartphone",
+    "stars": 4.4,
+    "image": "https://lh3.googleusercontent.com/PeYBcVlNtjnthqwJ1B79chUfENFOjssWUl9mV2YTsMKyaeSFfkGbAQeyNKXy_RpRMPESK2wCCP_Dw_lWBS6WNkZnD0g3XTtRrA=rw-e365-nu-w400",
+    "category": "phone",
+    "brand": "Google",
+    "isHighlighted": true
+  },
+  {
+    "id": 4,
+    "name": "MacBook Pro 2022",
+    "price": 1999,
+    "description": "Powerful laptop for professionals",
+    "stars": 4.8,
+    "image": "https://www.apple.com/macbook-pro-14-and-16/",
+    "category": "laptop",
+    "brand": "Apple",
+    "isHighlighted": false
+  },
+  {
+    "id": 5,
+    "name": "Sony PlayStation 5",
+    "price": 499,
+    "description": "Next-gen gaming console",
+    "stars": 4.9,
+    "image": "https://www.playstation.com/en-us/ps5/",
+    "category": "gaming",
+    "brand": "Sony",
+    "isHighlighted": false
+  },
+  {
+    "id": 6,
+    "name": "LG OLED TV",
+    "price": 1499,
+    "description": "Immersive 4K HDR television",
+    "stars": 4.7,
+    "image": "https://www.lg.com/us/tvs/lg-oled65c1pub-oled-4k-tv",
+    "category": "television",
+    "brand": "LG",
+    "isHighlighted": false
+  },
+  {
+    "id": 7,
+    "name": "Bose QuietComfort 45 Headphones",
+    "price": 329,
+    "description": "Premium noise-canceling headphones",
+    "stars": 4.6,
+    "image": "https://www.bose.com/en_us/products/headphones/noise_cancelling_headphones/quietcomfort-45-wireless-headphones.html#v=qc45_black",
+    "category": "audio",
+    "brand": "Bose",
+    "isHighlighted": false
+  },
+  {
+    "id": 8,
+    "name": "DJI Mavic Air 2 Drone",
+    "price": 799,
+    "description": "High-performance aerial photography drone",
+    "stars": 4.7,
+    "image": "https://www.dji.com/mavic-air-2",
+    "category": "drone",
+    "brand": "DJI",
+    "isHighlighted": false
+  },
+  {
+    "id": 9,
+    "name": "Amazon Echo Dot (4th Gen)",
+    "price": 49,
+    "description": "Smart speaker with Alexa",
+    "stars": 4.3,
+    "image": "https://www.amazon.com/Echo-Dot-4th-gen/dp/B08DFPZMQP",
+    "category": "smart_home",
+    "brand": "Amazon",
+    "isHighlighted": false
+  },
+  {
+    "id": 10,
+    "name": "GoPro HERO10 Black",
+    "price": 499,
+    "description": "Action camera for adventurers",
+    "stars": 4.8,
+    "image": "https://gopro.com/en/us/shop/cameras/hero10-black/CHDHX-101-master.html",
+    "category": "camera",
+    "brand": "GoPro",
+    "isHighlighted": false
+  }
+]
