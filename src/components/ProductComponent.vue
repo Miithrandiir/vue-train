@@ -54,6 +54,9 @@ const props = defineProps({
         font-weight: bold;
         width: 100%;
         border-radius: 0 0 10px 10px;
+        &:hover {
+            background: lighten(#c8938d, 3);
+        }
     }
 }
 </style>

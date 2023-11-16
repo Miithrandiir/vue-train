@@ -39,12 +39,9 @@ h2 {
     display: flex;
     width: 75%;
     margin: 0 auto;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     height: calc(100% - 6rem);
-    &>.product {
-        height: 100%;
-    }
 }
 
 </style>

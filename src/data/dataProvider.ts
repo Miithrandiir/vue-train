@@ -9,8 +9,9 @@ const getProduct = (id: number) : any => {
     return product.find((p: Product) => p.id === id);
 }
 
-const getCategories = () : any => {
-    return product.map((p: Product) => p.category);
+const getCategories = () : String[] => {
+    const categories = product.map((p: Product) => p.category);
+    return [...new Set(categories)];
 }
 
 const getHighlightedProducts = async () : Promise<any> => {

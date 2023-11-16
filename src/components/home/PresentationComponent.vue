@@ -24,7 +24,7 @@ onMounted(() => {
 <style scoped lang=scss>
 .presentation {
     width: 90%;
-    height: auto;
+    height: 600px;
     max-height: 75vh;
     position: relative;
     margin: 0 auto;
