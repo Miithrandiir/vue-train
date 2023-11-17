@@ -8,7 +8,7 @@
                 <li>46 Produits</li>
             </ul>
         </div>
-        <button class="footer">
+        <button class="footer" @click="$router.push(`/category/${props.category}`)">
             Voir plus
         </button>
     </div>

@@ -25,7 +25,7 @@ import BaseLayout from '@/layouts/BaseLayout.vue';
 
 <style scoped lang="scss">
 .highlighted-products {
-    margin: 250px auto;
+    margin: 50px auto;
     width: 90%;
     flex-direction: column;
     display: flex;

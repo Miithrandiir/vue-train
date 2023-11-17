@@ -20,4 +20,6 @@ export default class Product {
         this.brand = brand;
         this.isHighlighted = isHighlighted;
     }
+
+    
 }

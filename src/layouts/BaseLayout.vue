@@ -14,5 +14,7 @@ import FooterComponent from '@/components/FooterComponent.vue';
 <style lang="scss" scoped>
 .content {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 </style>

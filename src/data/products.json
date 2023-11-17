@@ -3,7 +3,7 @@
     "id": 1,
     "name": "iPhone 13",
     "price": 1000,
-    "description": "This is the best phone",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius est non tortor iaculis bibendum. Duis at interdum nisl. Curabitur nec pellentesque orci. Maecenas at justo non diam iaculis tincidunt ac non tellus. In gravida lacinia dapibus. Vivamus iaculis est enim, vitae luctus risus efficitur at. Aenean posuere, massa vitae tincidunt auctor, nibh erat accumsan mi, vel laoreet massa magna in risus. Praesent tincidunt, nibh sed imperdiet venenatis, justo felis ultricies nisl, quis elementum urna ligula sed velit. Cras magna ante, finibus nec turpis ac, rhoncus dictum sapien. Aliquam a lorem a magna viverra interdum.",
     "stars": 4.5,
     "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-unselect-gallery-2-202207?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1654894177855",
     "category": "phone",
