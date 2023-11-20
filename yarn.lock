@@ -81,6 +81,11 @@
   resolved "https://registry.npmjs.org/@fontsource/noto-sans/-/noto-sans-5.0.17.tgz"
   integrity sha512-VcnKA99cE8OgRiy6O3T6xCKirsguD5+MYrGrbBWYA3m3fqDArCr66eEvR3iuTngGLbTODJq4bzc6yfaiGZu/pQ==
 
+"@fontsource/pacifico@^5.0.8":
+  version "5.0.8"
+  resolved "https://registry.npmjs.org/@fontsource/pacifico/-/pacifico-5.0.8.tgz"
+  integrity sha512-0WQ50ZzIv3dP98ET8Pthr12cF6f8ova3FslIXjrtwh9mo2Xo60T1hzUhVNfZLFVtwd2MVH6MNVa85OCfqZ4/+w==
+
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz"

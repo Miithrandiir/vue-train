@@ -1,8 +1,8 @@
 <template>
     <div class="selector">
-        <button @click="value--">-</button>
-        <div>{{ value }}</div>
-        <button @click="value++">+</button>
+        <button @click="$emit('update-value:decrement')">-</button>
+        <div>{{ props.value }}</div>
+        <button @click="$emit('update-value:increment')">+</button>
     </div>
 </template>
 
@@ -16,7 +16,6 @@ const props = defineProps({
     }
 });
 
-const value  = ref(props.value);
 const emits = defineEmits(['update-value:decrement', 'update-value:increment']);
 
 </script>

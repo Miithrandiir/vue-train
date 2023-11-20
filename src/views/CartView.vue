@@ -20,12 +20,10 @@
                                 <td>{{ item.quantity }}</td>
                                 <td>${{ item.price }}</td>
                                 <td>${{ item.total }}</td>
-                                <td v-if="item.quantity == 1">
-                                    <button @click="cartStore.remove(item)">Remove</button>
-                                </td>
-                                <td v-else>
+                                <td>
                                     <SelectorComponent :value="item.quantity"
-                                        @update-value="console.log('str')"></SelectorComponent>
+                                        @update-value:decrement="updateQuantity(false, item)"
+                                        @update-value:increment="updateQuantity(true, item)"></SelectorComponent>
                                 </td>
                             </tr>
                         </template>
@@ -55,6 +53,7 @@ import BaseLayout from '@/layouts/BaseLayout.vue';
 import { useCartStore } from '@/stores/CartStore';
 import { ref, watch } from 'vue';
 import { storeToRefs } from 'pinia';
+import type Cart from '@/core/Cart';
 
 const cartStore = useCartStore();
 
@@ -63,6 +62,10 @@ let cart = storeToRefs(cartStore);
 watch(cart, () => {
     console.log('isLoggedIn ref changed, do something!')
 })
+
+function updateQuantity(increment: boolean, item: Cart) {
+    increment ? cartStore.add(item) : cartStore.remove(item);
+}
 
 </script>
 

@@ -17,6 +17,7 @@
   "dependencies": {
     "@fontsource/material-icons": "^5.0.7",
     "@fontsource/noto-sans": "^5.0.17",
+    "@fontsource/pacifico": "^5.0.8",
     "gsap": "^3.12.2",
     "pinia": "^2.1.7",
     "vue": "^3.3.4",
