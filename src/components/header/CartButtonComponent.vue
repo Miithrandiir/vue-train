@@ -1,5 +1,5 @@
 <template>
-    <router-link to="/cart">
+    <router-link to="/cart" data-cy="basket">
         <span class="material-icon">shopping_cart</span>
         {{ cartStore.totalItems }} articles
     </router-link>

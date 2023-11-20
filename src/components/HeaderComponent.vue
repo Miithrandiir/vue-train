@@ -5,7 +5,6 @@
         <ul>
             <li><router-link to="/">Accueil</router-link></li>
             <li><router-link to="/categories">Catégorie</router-link></li>
-            <li><router-link to="/contact-us">Nous contacter</router-link></li>
         </ul>
 
         <CartButtonComponent />

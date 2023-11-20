@@ -12,7 +12,7 @@
                 <div class="price">
                     <span>$</span>{{ product.price }}
                 </div>
-                <button class="add-to-cart" @click="onAddToCartClicked">Ajouter au panier</button>
+                <button class="add-to-cart" @click="onAddToCartClicked" data-cy="order-button">Ajouter au panier</button>
             </div>
         </div>
     </BaseLayout>

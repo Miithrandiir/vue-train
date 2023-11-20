@@ -36,9 +36,9 @@
             </div>
             <div class="cart__total">
                 <ul>
-                    <li>Total H.T: ${{ (cart.totalPrice.value * 0.8).toFixed(2) }}</li>
-                    <li>Taxe (20%) : ${{ (cart.totalPrice.value * 0.2).toFixed(2) }}</li>
-                    <li>Total T.T.C : ${{ cart.totalPrice.value }}</li>
+                    <li data-cy="price_ht">Total H.T: ${{ (cart.totalPrice.value * 0.8).toFixed(2) }}</li>
+                    <li data-cy="price_taxes">Taxe (20%) : ${{ (cart.totalPrice.value * 0.2).toFixed(2) }}</li>
+                    <li data-cy="price_ttc">Total T.T.C : ${{ cart.totalPrice.value }}</li>
                 </ul>
 
                 <button class="cart__total__checkout">Procéder au paiement</button>

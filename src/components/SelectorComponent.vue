@@ -1,8 +1,8 @@
 <template>
     <div class="selector">
-        <button @click="$emit('update-value:decrement')">-</button>
-        <div>{{ props.value }}</div>
-        <button @click="$emit('update-value:increment')">+</button>
+        <button @click="$emit('update-value:decrement')" data-cy="button-decrement">-</button>
+        <div data-cy="selector-value">{{ props.value }}</div>
+        <button @click="$emit('update-value:increment')" data-cy="button-increment">+</button>
     </div>
 </template>
 
