@@ -14,8 +14,8 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <template v-if="cartStore.itemsSet.length > 0">
-                            <tr v-for="item in cart.itemsSet.value" :key="item.id">
+                        <template v-if="cartStore.getItems.length > 0">
+                            <tr v-for="item in cart.getItems.value" :key="item.id">
                                 <td><b>{{ item.name }}</b></td>
                                 <td>{{ item.quantity }}</td>
                                 <td>${{ item.price }}</td>
