@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: 20.1
       - run: npm install
-      - run: test:unit
+      - run: npm run test:unit
   e2e-test:
     runs-on: ubuntu-latest
     steps:
