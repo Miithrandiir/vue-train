@@ -51,17 +51,12 @@
 import SelectorComponent from '@/components/SelectorComponent.vue';
 import BaseLayout from '@/layouts/BaseLayout.vue';
 import { useCartStore } from '@/stores/CartStore';
-import { ref, watch } from 'vue';
 import { storeToRefs } from 'pinia';
 import type Cart from '@/core/Cart';
 
 const cartStore = useCartStore();
 
 let cart = storeToRefs(cartStore);
-
-watch(cart, () => {
-    console.log('isLoggedIn ref changed, do something!')
-})
 
 function updateQuantity(increment: boolean, item: Cart) {
     increment ? cartStore.add(item) : cartStore.remove(item);

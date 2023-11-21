@@ -5,7 +5,7 @@
         </div>
         <div class="content">
             <ul>
-                <li>46 Produits</li>
+                <li>{{products.length}} Produits</li>
             </ul>
         </div>
         <button class="footer" @click="$router.push(`/category/${props.category}`)">
@@ -66,6 +66,7 @@
 </style>
 
 <script setup lang="ts">
+import * as dataProvider from '@/data/dataProvider';
 
 const props = defineProps({
     category: {
@@ -73,5 +74,7 @@ const props = defineProps({
         required: true
     }
 })
+
+const products = await dataProvider.getProductFromCategory(props.category);
 
 </script>
