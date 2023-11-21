@@ -7,7 +7,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
 
 const props = defineProps({
     value: {
@@ -15,8 +14,6 @@ const props = defineProps({
         required: true
     }
 });
-
-const emits = defineEmits(['update-value:decrement', 'update-value:increment']);
 
 </script>
 
